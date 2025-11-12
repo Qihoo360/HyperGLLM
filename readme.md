@@ -22,7 +22,7 @@
 **HyperGLLM** is a novel detection framework that introduces hypergraph reasoning into LLMs. It first constructs an attribute-value level relation-aware graph to model low-order structural semantics while reducing textual redundancy. Then, it introduces a differential hypergraph module with multi-granularity clustering to capture high-order behavioral dependencies embedded in interleaved events and reinforce threat semantics. Finally, the hypergraph representations are aligned with an LLM for efficient contextual reasoning over potential malicious behaviors. We curate EDR3.6B-63F, a large-scale EDR dataset containing 3.6 billion events across 63 distinct behavior families. Extensive experiments demonstrate that HyperGLLM significantly outperforms state-of-the-art methods by reducing the false alarm rate to 1.67%, achieving 94.65% accuracy across 63 behavior families, and improving the modeling efficiency of LLMs on long EDR logs. Our framework and dataset provide a solid foundation for future research and support the development of advanced detection solutions in endpoint security.
 
 <p align="center">
-<img src="Imag/Method_Overview.png">
+<img src="Method_Overview.png">
 </p>
 
 ## :sparkles: Features
